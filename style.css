@@ -1,0 +1,100 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+main {
+    background-color: aqua;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main  circle{
+    display: none;
+}
+
+
+form {
+    margin: 70px 0;
+    width: 400px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+ 
+form div input {
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 40px;
+}
+
+form div svg {
+    position: relative;
+    top: 0;
+    left: -29px;
+    border-left: 1px solid black;
+    padding-left: 5px;
+    margin-right: 15px;
+
+}
+
+form div svg:hover {
+   border: 2px solid black;
+   height: 100%;
+}
+
+#article {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+}
+
+
+#article .song-container {
+    margin: 10px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#article .song-container svg:first-child {
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    background-color: red;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 20px;
+}
+
+
+
+
+#article .song-container .song {
+    width: 70%;
+    margin-left: 40px;
+}
+
+#article .song-container .song h4 {
+    margin-bottom: 5px;
+}
+
+#article .song-container .song h2 {
+    margin-bottom: 8px;
+}
